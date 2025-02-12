@@ -25,9 +25,7 @@ body {
   margin-left: 10px;
 }
 
-/* .main-section {
-    font-size: 50px;
-  } */
+
 .d-inline {
   display: inline-block;
 }
@@ -48,20 +46,12 @@ body {
   margin: 0;
 }
 
-/* .box {
-    height: 170px;
-    margin: 0;
-    padding-top: 47px;
-    padding-left: 34px;
-    font-size: 36px;
-    font-weight: 300; 
-} */
 .body-setup {
   background-image: url("./images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 16px;
-  /* font-family: "Fira Sans", sans-serif; */
+  
 
 }
 
@@ -90,7 +80,6 @@ body {
 
 .quick-links ul li {
   display: inline-block;
-  /* font-family: "Alegreya Sans", sans-serif; */
   font-size: 13.2px;
   font-weight: 400;
 }
@@ -134,17 +123,9 @@ body {
   height: 160px;
   width: 222px;
   top: 10px;
-  left: 20px;
-  /* background-color: #265f84; */
+  left: 10px;
 }
 
-/* .bg-lc{
-    background-color: #4e4d53;
-    padding: 5px;
-    width: 955px;
-    height: 70px;
-
-  } */
 .header-nav {
   width: 700px;
   float: right;
@@ -155,7 +136,6 @@ body {
 .header-nav ul {
   list-style: none;
   margin-left: 28px;
-  /* background-color: #4e4d53 */
 }
 
 .header-nav ul li {
@@ -173,7 +153,6 @@ body {
 .header-nav a {
   color: #ABDEFF;
   text-decoration: none;
-  /* font-family: 'Courier New', Courier, monospace; */
   padding: 5px 10px;
 }
 
@@ -189,34 +168,6 @@ body {
 .divider::after {
   content: "|";
 }
-/* .nav {
-    background-color: #2a3b4c;
-    padding: 15px 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  .nav a:not(:last-child)::after {
-    content: '|';
-    margin-left: 15px;
-    color: lightgray;
-  }
-  
-  .logo {
-    margin-right: auto;
-  }
-  
-  .nav:hover {
-    background-color: #1d2b3a;
-  } */
 .main-section {
   width: 955px;
   padding: 0;
@@ -231,7 +182,6 @@ body {
   box-sizing: border-box;
   filter: contrast(110%);
   color: rgb(255, 253, 247);
-  /* font-family: "Open Sans", sans-serif; */
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 8px;
