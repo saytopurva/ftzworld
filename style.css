@@ -4,8 +4,13 @@
 .br {
   border: solid red 2px;
 }
-
-bg {
+.fw{
+  font-weight: 500;
+}
+.fs{
+  font-size: larger;
+}
+.bg {
   border: solid rgb(57, 126, 82) 2px;
 }
 body {
@@ -56,7 +61,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 16px;
-  font-family: "Fira Sans", sans-serif;
+  /* font-family: "Fira Sans", sans-serif; */
 
 }
 
@@ -85,7 +90,7 @@ body {
 
 .quick-links ul li {
   display: inline-block;
-  font-family: "Alegreya Sans", sans-serif;
+  /* font-family: "Alegreya Sans", sans-serif; */
   font-size: 13.2px;
   font-weight: 400;
 }
@@ -161,14 +166,14 @@ body {
   text-transform: uppercase;
   padding: 0;
   padding-right: 0;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
 }
 
 .header-nav a {
   color: #ABDEFF;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   padding: 5px 10px;
 }
 
@@ -226,7 +231,7 @@ body {
   box-sizing: border-box;
   filter: contrast(110%);
   color: rgb(255, 253, 247);
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 8px;
@@ -332,4 +337,7 @@ body {
 .footer-divider-style {
   padding: 8px;
   font-size: 12px !important;
+}
+.d-inline{
+  display:inline-block ;
 }
