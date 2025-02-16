@@ -1,0 +1,26 @@
+1.either add styling in body tag or in body setup
+2.rather than box main container is more prefreable
+3.remove commented code in html
+4.padding margin class specify p=0 m=0 mention actual 
+5.swap maincontent with header 
+6.(quick-links-seperator::after) check this and understand
+7.
+
+
+SHIVAM==
+1. either add styling in body tag itself or in body-setup class.✅
+2. class box -> main-container is more prerable.
+3. remove commented code line 23
+4. padding margin p m class should specify p-0 m-0 etc
+5. rather than ma mention actual margin
+6. main-content -> header class name
+7. ftz-logo is at div and img tag is it required at both place
+8. quick-links-seperator::after is after requried there9.  <span class="divider"></span> what is need of it
+10. 60 line h4 or h1
+11. 83 empty div
+12 about-us-container , that was food desc
+
+css 
+
+1. fw -> fw-500 relate it rename other too
+2.
