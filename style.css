@@ -2,13 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 
+
+
+.body-setup {
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
 /* quick links */
 .quick-links {
   background-color: #3d5d8e;
   list-style: none;
   font-size: 13.2px;
   font-weight: 400;
-  margin: 0;
 } 
 
 .quick-links a {
@@ -24,47 +33,32 @@
   color:#ABDEFF ;
 }
 
-
 /* main section */
 
 .container {
-  margin: 0;
-  font-family: "Lato", sans-serif;
   margin: auto;
   width: 955px;
-
-}
-
-
-.body-setup {
-  background-image: url("./images/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 16px;
 }
 
 .main-content {
   padding: 5px;
-  width: 955px;
   height: 70px;
   background-color: rgb(8, 18, 28, 0.8);
-  margin-top: 32px;
-  box-sizing: border-box;
+  margin-top: 30px;
 }
 
 .header {
   border: solid #4e4d53 1px;
   height: 60px;
+  position: relative;
 }
 
 .ftz-logo {
   position: absolute;
   height: 160px;
   width: 222px;
-  top: 10px;
+  top: -40px;
   left: 10px;
-  margin-left: 120px;
-  
 }
 
 .header-nav {
@@ -327,4 +321,10 @@
 }
 .justify-content-end{
   justify-content: end;
+}
+.p-0{
+  padding: 0;
+}
+.m-0{
+  margin: 0;
 }
