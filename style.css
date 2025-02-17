@@ -4,43 +4,26 @@
 
 /* quick links */
 .quick-links {
-  box-sizing: border-box;
   background-color: #3d5d8e;
   list-style: none;
   font-size: 13.2px;
   font-weight: 400;
-  margin-top: -8px;
+  margin: 0;
 } 
 
 .quick-links a {
   text-decoration: none;
   color: white;
-  padding: 10px;
-  display: inline-block;
+  padding: 5px;
+  display: inline-block; 
 }
 
-.quick-links li ::after {
-  font-size: 20px;
+.quick-links li:not(:last-child)::after {
+  font-size: 15px;
   content: "|";
+  color:#ABDEFF ;
 }
 
-
-.quick-links ul {
-  list-style: none;
-  justify-content: flex-end; 
-}
-
-.quick-links a {
-  text-decoration: none;
-  color: white;
-  padding: 4px;
-  display: inline-block;
-}
-
-.quick-links li ::after {
-  font-size: 10px;
-  content: "|";
-}
 
 /* main section */
 
