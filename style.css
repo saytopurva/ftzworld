@@ -42,14 +42,12 @@
 
 .main-content {
   padding: 5px;
-  height: 70px;
   background-color: rgb(8, 18, 28, 0.8);
   margin-top: 30px;
 }
 
 .header {
   border: solid #4e4d53 1px;
-  height: 60px;
   position: relative;
 }
 
@@ -62,10 +60,7 @@
 }
 
 .header-nav {
-  width: 700px;
-  float: right;
-  height: 60px;
-  box-sizing: border-box;
+  
 }
 
 .header-nav ul {
@@ -74,10 +69,8 @@
 }
 
 .header-nav ul li {
-  margin: 0;
   margin-top: 18px;
   margin-bottom: 5px;
-  display: inline-block;
   text-transform: uppercase;
   padding-bottom:0;
   padding-top: 0px;
