@@ -10,7 +10,12 @@
   font-size: 13.2px;
   justify-content: flex-end; 
   font-weight: 400;
-}
+  margin-top: -8px;
+   /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  display: inline-block;
+} 
 
 .quick-links a {
   text-decoration: none;
@@ -40,12 +45,12 @@
 .quick-links a {
   text-decoration: none;
   color: white;
-  padding: 10px;
+  padding: 4px;
   display: inline-block;
 }
 
 .quick-links li ::after {
-  font-size: 20px;
+  font-size: 10px;
   content: "|";
 }
 
@@ -87,6 +92,7 @@
   width: 222px;
   top: 10px;
   left: 10px;
+  margin-left: 120px;
   
 }
 
@@ -105,13 +111,13 @@
 .header-nav ul li {
   margin: 0;
   margin-top: 18px;
-  margin-bottom: 18px;
+  margin-bottom: 5px;
   display: inline-block;
   text-transform: uppercase;
   padding-bottom:0;
-  padding-top: 60px;
+  padding-top: 0px;
   padding-right: 0;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
 }
 
