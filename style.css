@@ -9,26 +9,25 @@
   font-size: 16px;
   font-family: "Lato", sans-serif;
 }
-
 /* quick links */
 .quick-links {
   background-color: #3d5d8e;
   list-style: none;
   font-size: 13.2px;
   font-weight: 400;
-} 
+}
 
 .quick-links a {
   text-decoration: none;
   color: white;
   padding: 5px;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .quick-links li:not(:last-child)::after {
   font-size: 15px;
   content: "|";
-  color:#ABDEFF ;
+  color: #ABDEFF;
 }
 
 /* main section */
@@ -57,10 +56,6 @@
   left: 10px;
 }
 
-.header-nav {
-  
-}
-
 .header-nav ul {
   list-style: none;
   margin-left: 28px;
@@ -69,7 +64,7 @@
 .header-nav ul li {
   margin-top: 2px;
   margin-bottom: 2px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
 }
@@ -77,25 +72,17 @@
 .header-nav a {
   color: #ABDEFF;
   text-decoration: none;
-  padding: 5px 10px; 
+  padding: 5px 10px;
 }
 
 .header-nav a:hover {
   color: white;
   background-color: #acdeff;
 }
-
-.divider {
-  color: whitesmoke;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  align-items: center
-}
-
-.divider::after {
+.header li:not(:last-child)::after{
+  font-size: 20px;
   content: "|";
-  padding: 0;
+  color: white;
 }
 
 .title-container {
@@ -133,18 +120,14 @@
 .tile {
   width: 277px;
   height: 121px;
-  filter: contrast(110%) ;
+  filter: contrast(110%);
 }
 
 .about a {
   color: #acdeff;
 }
-
 /* footer class */
-
-
 .footer {
-  color: #fffef8;
   height: 30px;
   width: 955px;
   background-color: rgba(30, 48, 82, 0.7);
@@ -160,21 +143,12 @@
   font-size: 14px;
   font-weight: 400;
 }
-.footer p{
-  margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
 
 .footer-divider-style {
   padding: 8px;
   font-size: 12px;
 }
-
 /* common classes */
-
 .d-inline {
   display: inline-block;
 }
@@ -183,11 +157,11 @@
   border: solid red 2px;
 }
 
-.fw {
+.fw-500 {
   font-weight: 500;
 }
 
-.fs {
+.fs-larger {
   font-size: larger;
 }
 
@@ -215,12 +189,8 @@
   margin-top: 46px;
 }
 
-.ma-5 {
+.m-5 {
   margin-right: 25px;
-}
-
-.mg-5 {
-  margin: 10px;
 }
 
 .bg {
@@ -231,15 +201,14 @@
   display: flex;
 }
 
-.ma-t-10 {
-  margin-top: 50px;
-}
-.justify-content-end{
+.justify-content-end {
   justify-content: end;
 }
-.p-0{
+
+.p-0 {
   padding: 0;
 }
-.m-0{
+
+.m-0 {
   margin: 0;
 }
