@@ -102,17 +102,17 @@
   padding: 0;
 }
 
-.main-section {
-  width: 955px;
-  border: solid green 3px;
+/* .main-section {
+  width: 955px; */
+  /* border: solid green 3px; */
   /* padding: 0; */
-}
+
 
 .main-box {
   filter: contrast(110%);
   height: 170px;
   margin: 0;
-  border: solid red 3px;
+  /* border: solid red 3px; */
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 34px;
