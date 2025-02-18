@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 
-
-
 .body-setup {
   background-image: url("./images/bg.png");
   background-repeat: no-repeat;
@@ -69,12 +67,12 @@
 }
 
 .header-nav ul li {
-  margin-top: 18px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  padding-bottom:0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-transform: uppercase; 
+  /* padding-bottom:0;
   padding-top: 0px;
-  padding-right: 0;
+  padding-right: 0; */
   font-size: 18px;
   font-weight: 400;
 }
@@ -82,7 +80,7 @@
 .header-nav a {
   color: #ABDEFF;
   text-decoration: none;
-   padding: 5px 10px; 
+  padding: 5px 10px; 
 }
 
 .header-nav a:hover {
@@ -93,7 +91,7 @@
 .divider {
   color: whitesmoke;
   font-size: 16px;
-  margin: 0;
+  /* margin: 0; */
   padding-top: 10px;
   padding-bottom: 10px;
   align-items: center
@@ -106,17 +104,20 @@
 
 .main-section {
   width: 955px;
-  padding: 0;
+  border: solid green 3px;
+  /* padding: 0; */
 }
 
 .main-box {
   filter: contrast(110%);
   height: 170px;
   margin: 0;
-  padding-top: 10px;
+  border: solid red 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 34px;
-  box-sizing: border-box;
-  filter: contrast(110%);
+  /* box-sizing: border-box; */
+  /* filter: contrast(110%); */
   color: rgb(255, 253, 247);
   font-size: 36px;
   font-weight: 300;
