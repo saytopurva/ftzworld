@@ -70,9 +70,6 @@
   margin-top: 2px;
   margin-bottom: 2px;
   text-transform: uppercase; 
-  /* padding-bottom:0;
-  padding-top: 0px;
-  padding-right: 0; */
   font-size: 18px;
   font-weight: 400;
 }
@@ -91,7 +88,6 @@
 .divider {
   color: whitesmoke;
   font-size: 16px;
-  /* margin: 0; */
   padding-top: 10px;
   padding-bottom: 10px;
   align-items: center
@@ -102,22 +98,11 @@
   padding: 0;
 }
 
-/* .main-section {
-  width: 955px; */
-  /* border: solid green 3px; */
-  /* padding: 0; */
-
-
-.main-box {
+.title-container {
   filter: contrast(110%);
-  height: 170px;
-  margin: 0;
-  /* border: solid red 3px; */
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   padding-left: 34px;
-  /* box-sizing: border-box; */
-  /* filter: contrast(110%); */
   color: rgb(255, 253, 247);
   font-size: 36px;
   font-weight: 300;
@@ -145,30 +130,15 @@
   width: 277px;
 }
 
-.tile1 {
-  filter: contrast(110%) brightness(180%);
-}
-
 .tile {
   width: 277px;
   height: 121px;
+  filter: contrast(110%) ;
 }
 
 .about a {
   color: #acdeff;
 }
-
-.about a:after {
-  content: ">";
-}
-
-.to-upper-case {
-  text-transform: uppercase;
-}
-
-
-
-
 
 /* footer class */
 
@@ -180,7 +150,6 @@
   background-color: rgba(30, 48, 82, 0.7);
   padding-top: 5px;
   padding-bottom: 2px;
-  box-sizing: border-box;
   text-align: center;
   font-size: 12px;
   font-weight: 400;
@@ -190,6 +159,13 @@
   color: white;
   font-size: 14px;
   font-weight: 400;
+}
+.footer p{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 .footer-divider-style {
@@ -219,18 +195,6 @@
   font-size: 15px;
 }
 
-.mg-5 {
-  margin: 10px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.mt-46 {
-  margin-top: 46px;
-}
-
 .mt-20 {
   margin-top: 20px;
 }
@@ -243,15 +207,6 @@
   margin-top: 8px;
 }
 
-.ma-5 {
-  margin-right: 25px;
-}
-
-
-.mg-5 {
-  margin: 10px;
-}
-
 .ml-10 {
   margin-left: 10px;
 }
@@ -260,46 +215,12 @@
   margin-top: 46px;
 }
 
-
-.mt-10 {
-  margin-top: 10px;
-}
-
-.mt-8 {
-  margin-top: 8px;
-}
-
 .ma-5 {
   margin-right: 25px;
-}
-
-.font-5px {
-  font-size: 15px;
 }
 
 .mg-5 {
   margin: 10px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.mt-46 {
-  margin-top: 46px;
-}
-
-
-.mt-10 {
-  margin-top: 10px;
-}
-
-.mt-8 {
-  margin-top: 8px;
-}
-
-.ma-5 {
-  margin-right: 25px;
 }
 
 .bg {
